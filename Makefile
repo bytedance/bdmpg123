@@ -4,7 +4,7 @@
 
 # please change to the right local path
 # on error "Unknown host CPU architecture: arm64" (maybe Apple M1 Max etc), please copy android_build/ndk-build-for-m1 to your ndk path and use it.
-NDK_BUILD := ~/Library/Android/sdk/ndk/21.1.6352462/ndk-build
+NDK_BUILD := $(ANDROID_HOME)/ndk/24.0.8215888/ndk-build
 
 MPG123_VERSION	:= 1.25.10
 MPG123_BUILDDIR	:= temp/mpg123-${MPG123_VERSION}
